@@ -6,3 +6,10 @@ Scenario: Add to cart functionality
     And Add "Carrot" in the cart
     Then Place order and select the country
     And Validate the Thank you msg 
+
+Scenario: Add to cart functionality
+    Given Visit the Ecommerce Site
+    Then Search the product starts with "On"
+    And Add "Onion" in the cart
+    Then Place order and select the country
+    And Validate the Thank you msg 
