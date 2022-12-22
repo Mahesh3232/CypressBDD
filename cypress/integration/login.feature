@@ -8,4 +8,4 @@ Feature: Login
         Then User is on dashboard page
         Examples:
             | UserName                  | Password  |
-            | mahesh.aher1999@gmail.com | Sonu@3232 |
+            | mahesh.xxxx@gmail.com | xxxxxxxx |
